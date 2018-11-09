@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+title: Metada
+description: L'extension qui vous montre à qui appartiennent les médias
+image: assets/images/metada-cover.png
 nav-menu: true
 ---
 

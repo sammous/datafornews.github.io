@@ -1,8 +1,8 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
-description: null
+landing-title: 'Welcome to Data For News'
+description: Learn about the projects, get involved, propose a new one
 image: null
 author: null
 show_tile: false
