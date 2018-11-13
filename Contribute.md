@@ -1,7 +1,7 @@
 ---
-title: Landing
+title: Contribute
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+description: "You're a dev, a journalist, someone who thinks straight and gets things done? Join us"
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
