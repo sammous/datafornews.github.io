@@ -1,16 +1,16 @@
 ---
-title: Contribuer
+title: Contribute
 layout: landing
-description: "Vous êtes développeur, journaliste, ou quelqu'un qui sait réfléchir et veut agir? Rejoignez nous"
+description: "You're a dev, a journalist, someone who thinks straight and gets things done? Join us"
 image: assets/images/pic07.jpg
 nav-menu: true
 lang-ref: contribute
-lang: fr
+lang: en
 ---
 
 <!-- Main -->
 <div id="main">
-
+hahaa
 <!-- One -->
 <section id="one">
 	<div class="inner">

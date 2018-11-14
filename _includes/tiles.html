@@ -12,8 +12,10 @@
   </article>
   {% endif %}
   {% endfor %}
-  {% for page in site.pages limit:site.tiles-count %}
-  {% if site.tiles-source == 'pages' and page.show_tile != false %}
+
+  {% assign pages=site.pages | where:"lang", page.lang%}
+  {% for page in pages limit:site.tiles-count %}
+  {% if site.tiles-source == 'pages' and p.show_tile != false %}
   {% unless page.url contains '.css' %}
   <article>
     <span class="image">

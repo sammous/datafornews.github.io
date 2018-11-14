@@ -19,7 +19,8 @@
       <!-- One -->
       <section id="one">
 	<div class="inner">
-          {% for post in site.posts %}
+    {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+    {% for post in posts %}
 	  {% if post.title != 404 %}
 	  <header class="major">
 	    <h1>{{ post.title }}</h1>
