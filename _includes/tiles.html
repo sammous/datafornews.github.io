@@ -13,7 +13,7 @@
   {% endif %}
   {% endfor %}
 
-  {% assign pages=site.pages | where:"lang", page.lang%}
+  {% assign pages=site.pages | where:"lang", page.lang %}
   {% for page in pages limit:site.tiles-count %}
   {% if site.tiles-source == 'pages' and p.show_tile != false %}
   {% unless page.url contains '.css' %}
